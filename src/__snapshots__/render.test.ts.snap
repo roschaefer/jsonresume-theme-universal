@@ -1,0 +1,289 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders a resume 1`] = `
+"<!doctype html>
+<html lang=\\"en\\">
+  <head>
+    <meta charset=\\"UTF-8\\" />
+    <meta name=\\"description\\" content=\\"Programmer\\" />
+    <meta name=\\"keywords\\" content=\\"resume,cv,Richard Hendriks\\" />
+    <meta name=\\"author\\" content=\\"Richard Hendriks\\" />
+    <!-- <meta name=\\"robots\\" content=\\"noindex\\"> -->
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"ie=edge\\" />
+    <!-- <link rel=\\"preload\\" href=\\"./fonts/FiraGO-Regular.latin.woff2\\" as=\\"font\\" crossorigin=\\"anonymous\\"> -->
+    <style></style>
+    <title>Richard Hendriks</title>
+  </head>
+
+  <body>
+    <main class=\\"font-firago hyphens-manual bg-gray-100\\">
+      <div
+        class=\\"p-6 mx-auto page max-w-2xl print:max-w-a4 md:max-w-a4 xsm:p-8 sm:p-9 md:p-16 bg-white\\"
+      >
+        <header class=\\"flex items-center mb-8 md:mb-11\\">
+          <div
+            class=\\"mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3 py-[.6875rem]\\"
+          >
+            <div class=\\"initial text-center pb-[0.1875rem]\\">R</div>
+            <div class=\\"text-center initial\\">H</div>
+          </div>
+          <h1 class=\\"text-2xl font-semibold text-gray-750 pb-px\\">
+            Richard Hendriks
+          </h1>
+        </header>
+
+        <div class=\\"columns-2 col-gap-md col-fill-auto\\">
+          <section class=\\"mt-8 first:mt-0\\">
+            <div class=\\"break-inside-avoid-column\\">
+              <h2
+                class=\\"mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal\\"
+              >
+                WORK
+              </h2>
+
+              <section class=\\"mb-4.5 break-inside-avoid\\">
+                <header>
+                  <h3
+                    class=\\"text-lg font-semibold text-gray-700 leading-snugish\\"
+                  >
+                    <a href=\\"http://piedpiper.example.com\\" class=\\"group\\">
+                      Pied Piper (Awesome compression company)
+                      <span
+                        class=\\"inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in\\"
+                        >↗</span
+                      >
+                    </a>
+                  </h3>
+                  <p class=\\"leading-normal text-md text-gray-650\\">
+                    <time datetime=\\"2013-12-01\\">Dec 2013</time> –
+                    <time datetime=\\"2014-12-01\\">Dec 2014</time> | CEO/President
+                    <br />
+                    Palo Alto, CA
+                  </p>
+                </header>
+                <div class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                  <p>
+                    Pied Piper is a multi-platform technology based on a
+                    proprietary universal compression algorithm that has
+                    consistently fielded high Weisman Scores™ that are not
+                    merely competitive, but approach the theoretical limit of
+                    lossless compression.
+                  </p>
+                </div>
+
+                <ul>
+                  <li class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <span
+                      class=\\"absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px\\"
+                      >›</span
+                    >
+                    <p>
+                      Build an algorithm for artist to detect if their music was
+                      violating copy right infringement laws
+                    </p>
+                  </li>
+
+                  <li class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <span
+                      class=\\"absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px\\"
+                      >›</span
+                    >
+                    <p>Successfully won Techcrunch Disrupt</p>
+                  </li>
+
+                  <li class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <span
+                      class=\\"absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px\\"
+                      >›</span
+                    >
+                    <p>
+                      Optimized an algorithm that holds the current world record
+                      for Weisman Scores
+                    </p>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </section>
+
+          <section class=\\"mt-8 first:mt-0\\">
+            <div class=\\"break-inside-avoid-column\\">
+              <h2
+                class=\\"mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal\\"
+              >
+                EDUCATION
+              </h2>
+
+              <section class=\\"mb-4.5 break-inside-avoid\\">
+                <header>
+                  <h3
+                    class=\\"text-lg font-semibold text-gray-700 leading-snugish\\"
+                  >
+                    <a href=\\"https://www.ou.edu/\\" class=\\"group\\">
+                      University of Oklahoma
+                      <span
+                        class=\\"inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in\\"
+                        >↗</span
+                      >
+                    </a>
+                  </h3>
+                  <p class=\\"leading-normal text-md text-gray-650\\">
+                    <time datetime=\\"2011-06-01\\">Jun 2011</time> –
+                    <time datetime=\\"2014-01-01\\">Jan 2014</time> | Bachelor in
+                    Information Technology
+                    <br />
+                    Grade: 4.0
+                  </p>
+                </header>
+
+                <ul>
+                  <li class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <span
+                      class=\\"absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px\\"
+                      >›</span
+                    >
+                    <p>DB1101 - Basic SQL</p>
+                  </li>
+
+                  <li class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <span
+                      class=\\"absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px\\"
+                      >›</span
+                    >
+                    <p>CS2011 - Java Introduction</p>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </section>
+
+          <section class=\\"mt-8 first:mt-0\\">
+            <div class=\\"break-inside-avoid-column\\">
+              <h2
+                class=\\"mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal\\"
+              >
+                PROJECTS
+              </h2>
+
+              <section class=\\"mb-4.5 break-inside-avoid\\">
+                <header>
+                  <h3
+                    class=\\"text-lg font-semibold text-gray-700 leading-snugish\\"
+                  >
+                    <a href=\\"missdirection.example.com\\" class=\\"group\\">
+                      Miss Direction (application)
+                      <span
+                        class=\\"inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in\\"
+                        >↗</span
+                      >
+                    </a>
+                  </h3>
+                  <p class=\\"leading-normal text-md text-gray-650\\">
+                    <time datetime=\\"2016-08-24\\">Aug 2016</time> –
+                    <time datetime=\\"2016-08-24\\">Aug 2016</time> | Team lead
+                    &#183; Designer
+                    <br />
+                    Smoogle
+                  </p>
+
+                  <div class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <p>A mapping engine that misguides you</p>
+                  </div>
+                </header>
+
+                <div class=\\"my-3.2 last:pb-1.5\\">
+                  <ul
+                    class=\\"flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6\\"
+                  >
+                    <li
+                      class=\\"px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200\\"
+                    >
+                      GoogleMaps
+                    </li>
+
+                    <li
+                      class=\\"px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200\\"
+                    >
+                      Chrome Extension
+                    </li>
+
+                    <li
+                      class=\\"px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200\\"
+                    >
+                      Javascript
+                    </li>
+                  </ul>
+                </div>
+
+                <ul>
+                  <li class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <span
+                      class=\\"absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px\\"
+                      >›</span
+                    >
+                    <p>Won award at AIHacks 2016</p>
+                  </li>
+
+                  <li class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <span
+                      class=\\"absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px\\"
+                      >›</span
+                    >
+                    <p>Built by all women team of newbie programmers</p>
+                  </li>
+
+                  <li class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                    <span
+                      class=\\"absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px\\"
+                      >›</span
+                    >
+                    <p>
+                      Using modern technologies such as GoogleMaps, Chrome
+                      Extension and Javascript
+                    </p>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </section>
+
+          <section class=\\"mt-8 first:mt-0\\">
+            <div class=\\"break-inside-avoid-column\\">
+              <h2
+                class=\\"mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal\\"
+              >
+                VOLUNTEER
+              </h2>
+
+              <section class=\\"mb-4.5 break-inside-avoid\\">
+                <header>
+                  <h3
+                    class=\\"text-lg font-semibold text-gray-700 leading-snugish\\"
+                  >
+                    <a href=\\"http://coderdojo.example.com/\\" class=\\"group\\">
+                      CoderDojo
+                      <span
+                        class=\\"inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in\\"
+                        >↗</span
+                      >
+                    </a>
+                  </h3>
+                  <p class=\\"leading-normal text-md text-gray-650\\">
+                    <time datetime=\\"2012-01-01\\">Jan 2012</time> –
+                    <time datetime=\\"2013-01-01\\">Jan 2013</time> | Teacher
+                  </p>
+                </header>
+                <div class=\\"mt-2.1 text-md text-gray-700 leading-normal\\">
+                  <p>Global movement of free coding clubs for young people.</p>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+"
+`;

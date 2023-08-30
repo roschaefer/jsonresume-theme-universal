@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     copyPublicDir: false,
     lib: {
-      entry: './index.js',
+      entry: './index.ts',
       fileName: 'index',
       formats: ['es', 'cjs', 'umd'],
       name: 'jsonresumeThemeEven',
